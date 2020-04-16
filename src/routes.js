@@ -18,6 +18,13 @@ const Routes = createAppContainer(
                 title: 'DevRadar'
             }
         },
+    }, {
+        defaultNavigationOptions: {
+            headerTintColor: '#fff',
+            headerStyle: {
+                backgroundColor: '#7D40E7'
+            }
+        }
     })
 )
 
